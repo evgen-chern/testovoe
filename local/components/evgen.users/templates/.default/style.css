@@ -1,0 +1,33 @@
+.errors{
+    color: #4F6EB6;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.searched_groups p{
+    margin: 10px 0;
+}
+.evgen_table, .searched_groups{
+    width: 100%;
+    margin: 0 auto 30px auto;
+    background: #fff;
+}
+.evgen_table .head{
+    margin-bottom: -1px;
+}
+.evgen_table .head, .evgen_table .body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+.evgen_table .head p, .evgen_table .body p{
+    background: #fff;
+    margin: 0;
+    padding: 15px;
+}
+
